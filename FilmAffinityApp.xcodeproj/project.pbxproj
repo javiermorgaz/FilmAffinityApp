@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D32F6C4911CFEC4228F1015 /* Pods_FilmAffinityApp_FilmAffinityAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61595FEFEABD73A97B5EC2C7 /* Pods_FilmAffinityApp_FilmAffinityAppUITests.framework */; };
+		1E53F0C425AB205600A9F212 /* FilmAffinityAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53F0C325AB205600A9F212 /* FilmAffinityAppApp.swift */; };
+		1E53F0C625AB205600A9F212 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53F0C525AB205600A9F212 /* ContentView.swift */; };
+		1E53F0C825AB205700A9F212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E53F0C725AB205700A9F212 /* Assets.xcassets */; };
+		1E53F0CB25AB205700A9F212 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E53F0CA25AB205700A9F212 /* Preview Assets.xcassets */; };
+		1E53F0D625AB205800A9F212 /* FilmAffinityAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53F0D525AB205800A9F212 /* FilmAffinityAppTests.swift */; };
+		1E53F0E125AB205800A9F212 /* FilmAffinityAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53F0E025AB205800A9F212 /* FilmAffinityAppUITests.swift */; };
+		DF6E47431982F63E7E05F7B9 /* Pods_FilmAffinityApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0957E8EC9F482B91CAA45867 /* Pods_FilmAffinityApp.framework */; };
+		E5BA01995E3187B758DF888F /* Pods_FilmAffinityAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 022DB6BE7D4FA38441E13D77 /* Pods_FilmAffinityAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E53F0D225AB205800A9F212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E53F0B825AB205500A9F212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E53F0BF25AB205600A9F212;
+			remoteInfo = FilmAffinityApp;
+		};
+		1E53F0DD25AB205800A9F212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E53F0B825AB205500A9F212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E53F0BF25AB205600A9F212;
+			remoteInfo = FilmAffinityApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		022DB6BE7D4FA38441E13D77 /* Pods_FilmAffinityAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FilmAffinityAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0957E8EC9F482B91CAA45867 /* Pods_FilmAffinityApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FilmAffinityApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E53F0C025AB205600A9F212 /* FilmAffinityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmAffinityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E53F0C325AB205600A9F212 /* FilmAffinityAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmAffinityAppApp.swift; sourceTree = "<group>"; };
+		1E53F0C525AB205600A9F212 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1E53F0C725AB205700A9F212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E53F0CA25AB205700A9F212 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1E53F0CC25AB205700A9F212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E53F0D125AB205800A9F212 /* FilmAffinityAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilmAffinityAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E53F0D525AB205800A9F212 /* FilmAffinityAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmAffinityAppTests.swift; sourceTree = "<group>"; };
+		1E53F0D725AB205800A9F212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E53F0DC25AB205800A9F212 /* FilmAffinityAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilmAffinityAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E53F0E025AB205800A9F212 /* FilmAffinityAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmAffinityAppUITests.swift; sourceTree = "<group>"; };
+		1E53F0E225AB205800A9F212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F07468B05188032E91676AA /* Pods-FilmAffinityAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmAffinityAppTests.release.xcconfig"; path = "Target Support Files/Pods-FilmAffinityAppTests/Pods-FilmAffinityAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		61595FEFEABD73A97B5EC2C7 /* Pods_FilmAffinityApp_FilmAffinityAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FilmAffinityApp_FilmAffinityAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F50E7D9788B2F8B0513E320 /* Pods-FilmAffinityAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmAffinityAppTests.debug.xcconfig"; path = "Target Support Files/Pods-FilmAffinityAppTests/Pods-FilmAffinityAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9AFA536C5BB70FA838364C31 /* Pods-FilmAffinityApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmAffinityApp.debug.xcconfig"; path = "Target Support Files/Pods-FilmAffinityApp/Pods-FilmAffinityApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C025B56CEEF093DFADB11E5B /* Pods-FilmAffinityApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmAffinityApp.release.xcconfig"; path = "Target Support Files/Pods-FilmAffinityApp/Pods-FilmAffinityApp.release.xcconfig"; sourceTree = "<group>"; };
+		F30EFB91AF8A889760AD8B96 /* Pods-FilmAffinityApp-FilmAffinityAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmAffinityApp-FilmAffinityAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-FilmAffinityApp-FilmAffinityAppUITests/Pods-FilmAffinityApp-FilmAffinityAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3FE010FB703E1380020BF4B /* Pods-FilmAffinityApp-FilmAffinityAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmAffinityApp-FilmAffinityAppUITests.release.xcconfig"; path = "Target Support Files/Pods-FilmAffinityApp-FilmAffinityAppUITests/Pods-FilmAffinityApp-FilmAffinityAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E53F0BD25AB205600A9F212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6E47431982F63E7E05F7B9 /* Pods_FilmAffinityApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E53F0CE25AB205800A9F212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5BA01995E3187B758DF888F /* Pods_FilmAffinityAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E53F0D925AB205800A9F212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D32F6C4911CFEC4228F1015 /* Pods_FilmAffinityApp_FilmAffinityAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E53F0B725AB205500A9F212 = {
+			isa = PBXGroup;
+			children = (
+				1E53F0C225AB205600A9F212 /* FilmAffinityApp */,
+				1E53F0D425AB205800A9F212 /* FilmAffinityAppTests */,
+				1E53F0DF25AB205800A9F212 /* FilmAffinityAppUITests */,
+				1E53F0C125AB205600A9F212 /* Products */,
+				1E632901AEA5903EBB7E02C2 /* Pods */,
+				4CBE076B54489B52DAF1913F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1E53F0C125AB205600A9F212 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E53F0C025AB205600A9F212 /* FilmAffinityApp.app */,
+				1E53F0D125AB205800A9F212 /* FilmAffinityAppTests.xctest */,
+				1E53F0DC25AB205800A9F212 /* FilmAffinityAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E53F0C225AB205600A9F212 /* FilmAffinityApp */ = {
+			isa = PBXGroup;
+			children = (
+				1E53F0C325AB205600A9F212 /* FilmAffinityAppApp.swift */,
+				1E53F0C525AB205600A9F212 /* ContentView.swift */,
+				1E53F0C725AB205700A9F212 /* Assets.xcassets */,
+				1E53F0CC25AB205700A9F212 /* Info.plist */,
+				1E53F0C925AB205700A9F212 /* Preview Content */,
+			);
+			path = FilmAffinityApp;
+			sourceTree = "<group>";
+		};
+		1E53F0C925AB205700A9F212 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1E53F0CA25AB205700A9F212 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1E53F0D425AB205800A9F212 /* FilmAffinityAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E53F0D525AB205800A9F212 /* FilmAffinityAppTests.swift */,
+				1E53F0D725AB205800A9F212 /* Info.plist */,
+			);
+			path = FilmAffinityAppTests;
+			sourceTree = "<group>";
+		};
+		1E53F0DF25AB205800A9F212 /* FilmAffinityAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E53F0E025AB205800A9F212 /* FilmAffinityAppUITests.swift */,
+				1E53F0E225AB205800A9F212 /* Info.plist */,
+			);
+			path = FilmAffinityAppUITests;
+			sourceTree = "<group>";
+		};
+		1E632901AEA5903EBB7E02C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AFA536C5BB70FA838364C31 /* Pods-FilmAffinityApp.debug.xcconfig */,
+				C025B56CEEF093DFADB11E5B /* Pods-FilmAffinityApp.release.xcconfig */,
+				F30EFB91AF8A889760AD8B96 /* Pods-FilmAffinityApp-FilmAffinityAppUITests.debug.xcconfig */,
+				F3FE010FB703E1380020BF4B /* Pods-FilmAffinityApp-FilmAffinityAppUITests.release.xcconfig */,
+				7F50E7D9788B2F8B0513E320 /* Pods-FilmAffinityAppTests.debug.xcconfig */,
+				1F07468B05188032E91676AA /* Pods-FilmAffinityAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4CBE076B54489B52DAF1913F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0957E8EC9F482B91CAA45867 /* Pods_FilmAffinityApp.framework */,
+				61595FEFEABD73A97B5EC2C7 /* Pods_FilmAffinityApp_FilmAffinityAppUITests.framework */,
+				022DB6BE7D4FA38441E13D77 /* Pods_FilmAffinityAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E53F0BF25AB205600A9F212 /* FilmAffinityApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E53F0E525AB205800A9F212 /* Build configuration list for PBXNativeTarget "FilmAffinityApp" */;
+			buildPhases = (
+				9AB22C9734D4FF9DB3F31E77 /* [CP] Check Pods Manifest.lock */,
+				1E53F0BC25AB205600A9F212 /* Sources */,
+				1E53F0BD25AB205600A9F212 /* Frameworks */,
+				1E53F0BE25AB205600A9F212 /* Resources */,
+				933164FAB4F99638A4EFD264 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FilmAffinityApp;
+			productName = FilmAffinityApp;
+			productReference = 1E53F0C025AB205600A9F212 /* FilmAffinityApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E53F0D025AB205800A9F212 /* FilmAffinityAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E53F0E825AB205800A9F212 /* Build configuration list for PBXNativeTarget "FilmAffinityAppTests" */;
+			buildPhases = (
+				67AF49A8F476A07BDCF172AB /* [CP] Check Pods Manifest.lock */,
+				1E53F0CD25AB205800A9F212 /* Sources */,
+				1E53F0CE25AB205800A9F212 /* Frameworks */,
+				1E53F0CF25AB205800A9F212 /* Resources */,
+				F62957287606619037A610CD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E53F0D325AB205800A9F212 /* PBXTargetDependency */,
+			);
+			name = FilmAffinityAppTests;
+			productName = FilmAffinityAppTests;
+			productReference = 1E53F0D125AB205800A9F212 /* FilmAffinityAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E53F0DB25AB205800A9F212 /* FilmAffinityAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E53F0EB25AB205800A9F212 /* Build configuration list for PBXNativeTarget "FilmAffinityAppUITests" */;
+			buildPhases = (
+				A0F3587F145BB9043E9AB7F8 /* [CP] Check Pods Manifest.lock */,
+				1E53F0D825AB205800A9F212 /* Sources */,
+				1E53F0D925AB205800A9F212 /* Frameworks */,
+				1E53F0DA25AB205800A9F212 /* Resources */,
+				57572DAB89BF4E444B49480A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E53F0DE25AB205800A9F212 /* PBXTargetDependency */,
+			);
+			name = FilmAffinityAppUITests;
+			productName = FilmAffinityAppUITests;
+			productReference = 1E53F0DC25AB205800A9F212 /* FilmAffinityAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E53F0B825AB205500A9F212 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					1E53F0BF25AB205600A9F212 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					1E53F0D025AB205800A9F212 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 1E53F0BF25AB205600A9F212;
+					};
+					1E53F0DB25AB205800A9F212 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 1E53F0BF25AB205600A9F212;
+					};
+				};
+			};
+			buildConfigurationList = 1E53F0BB25AB205500A9F212 /* Build configuration list for PBXProject "FilmAffinityApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E53F0B725AB205500A9F212;
+			productRefGroup = 1E53F0C125AB205600A9F212 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E53F0BF25AB205600A9F212 /* FilmAffinityApp */,
+				1E53F0D025AB205800A9F212 /* FilmAffinityAppTests */,
+				1E53F0DB25AB205800A9F212 /* FilmAffinityAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E53F0BE25AB205600A9F212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E53F0CB25AB205700A9F212 /* Preview Assets.xcassets in Resources */,
+				1E53F0C825AB205700A9F212 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E53F0CF25AB205800A9F212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E53F0DA25AB205800A9F212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57572DAB89BF4E444B49480A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FilmAffinityApp-FilmAffinityAppUITests/Pods-FilmAffinityApp-FilmAffinityAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FilmAffinityApp-FilmAffinityAppUITests/Pods-FilmAffinityApp-FilmAffinityAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FilmAffinityApp-FilmAffinityAppUITests/Pods-FilmAffinityApp-FilmAffinityAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67AF49A8F476A07BDCF172AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FilmAffinityAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		933164FAB4F99638A4EFD264 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FilmAffinityApp/Pods-FilmAffinityApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FilmAffinityApp/Pods-FilmAffinityApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FilmAffinityApp/Pods-FilmAffinityApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AB22C9734D4FF9DB3F31E77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FilmAffinityApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0F3587F145BB9043E9AB7F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FilmAffinityApp-FilmAffinityAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F62957287606619037A610CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FilmAffinityAppTests/Pods-FilmAffinityAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FilmAffinityAppTests/Pods-FilmAffinityAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FilmAffinityAppTests/Pods-FilmAffinityAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E53F0BC25AB205600A9F212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E53F0C625AB205600A9F212 /* ContentView.swift in Sources */,
+				1E53F0C425AB205600A9F212 /* FilmAffinityAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E53F0CD25AB205800A9F212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E53F0D625AB205800A9F212 /* FilmAffinityAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E53F0D825AB205800A9F212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E53F0E125AB205800A9F212 /* FilmAffinityAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E53F0D325AB205800A9F212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E53F0BF25AB205600A9F212 /* FilmAffinityApp */;
+			targetProxy = 1E53F0D225AB205800A9F212 /* PBXContainerItemProxy */;
+		};
+		1E53F0DE25AB205800A9F212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E53F0BF25AB205600A9F212 /* FilmAffinityApp */;
+			targetProxy = 1E53F0DD25AB205800A9F212 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E53F0E325AB205800A9F212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E53F0E425AB205800A9F212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E53F0E625AB205800A9F212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AFA536C5BB70FA838364C31 /* Pods-FilmAffinityApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FilmAffinityApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 63EKWE9RKB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FilmAffinityApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmorgaz.FilmAffinityApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E53F0E725AB205800A9F212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C025B56CEEF093DFADB11E5B /* Pods-FilmAffinityApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FilmAffinityApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 63EKWE9RKB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FilmAffinityApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmorgaz.FilmAffinityApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E53F0E925AB205800A9F212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F50E7D9788B2F8B0513E320 /* Pods-FilmAffinityAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63EKWE9RKB;
+				INFOPLIST_FILE = FilmAffinityAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmorgaz.FilmAffinityAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FilmAffinityApp.app/FilmAffinityApp";
+			};
+			name = Debug;
+		};
+		1E53F0EA25AB205800A9F212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F07468B05188032E91676AA /* Pods-FilmAffinityAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63EKWE9RKB;
+				INFOPLIST_FILE = FilmAffinityAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmorgaz.FilmAffinityAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FilmAffinityApp.app/FilmAffinityApp";
+			};
+			name = Release;
+		};
+		1E53F0EC25AB205800A9F212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F30EFB91AF8A889760AD8B96 /* Pods-FilmAffinityApp-FilmAffinityAppUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63EKWE9RKB;
+				INFOPLIST_FILE = FilmAffinityAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmorgaz.FilmAffinityAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FilmAffinityApp;
+			};
+			name = Debug;
+		};
+		1E53F0ED25AB205800A9F212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3FE010FB703E1380020BF4B /* Pods-FilmAffinityApp-FilmAffinityAppUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63EKWE9RKB;
+				INFOPLIST_FILE = FilmAffinityAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmorgaz.FilmAffinityAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FilmAffinityApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E53F0BB25AB205500A9F212 /* Build configuration list for PBXProject "FilmAffinityApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E53F0E325AB205800A9F212 /* Debug */,
+				1E53F0E425AB205800A9F212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E53F0E525AB205800A9F212 /* Build configuration list for PBXNativeTarget "FilmAffinityApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E53F0E625AB205800A9F212 /* Debug */,
+				1E53F0E725AB205800A9F212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E53F0E825AB205800A9F212 /* Build configuration list for PBXNativeTarget "FilmAffinityAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E53F0E925AB205800A9F212 /* Debug */,
+				1E53F0EA25AB205800A9F212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E53F0EB25AB205800A9F212 /* Build configuration list for PBXNativeTarget "FilmAffinityAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E53F0EC25AB205800A9F212 /* Debug */,
+				1E53F0ED25AB205800A9F212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E53F0B825AB205500A9F212 /* Project object */;
+}
