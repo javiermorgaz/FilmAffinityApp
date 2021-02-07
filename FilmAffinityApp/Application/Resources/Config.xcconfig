@@ -1,0 +1,11 @@
+//
+//  Config.xcconfig
+//  FilmAffinityApp
+//
+//  Created by Jmorgaz on 25/12/20.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+API_KEY = 8254fc9df5msh8b9ed1fe7b2d53ep170e7ejsn7fc17363648f
