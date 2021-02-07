@@ -11,6 +11,7 @@ target 'FilmAffinityApp' do
   pod 'SDWebImageSwiftUI'
   pod 'SwiftLint'
   pod 'Swinject'
+  pod 'DailymotionPlayerSDK'
 
   target 'FilmAffinityAppTests' do
     inherit! :search_paths

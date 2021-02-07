@@ -8,12 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		0D32F6C4911CFEC4228F1015 /* Pods_FilmAffinityApp_FilmAffinityAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61595FEFEABD73A97B5EC2C7 /* Pods_FilmAffinityApp_FilmAffinityAppUITests.framework */; };
+		1E43492D25CF219A00661C0E /* movie.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E43492C25CF219A00661C0E /* movie.json */; };
+		1E43495125CF27CF00661C0E /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E43495025CF27CF00661C0E /* DetailModel.swift */; };
+		1E434AC325D075F500661C0E /* ShareActivityItemProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E434AC225D075F500661C0E /* ShareActivityItemProvider.swift */; };
+		1E434ACB25D0765200661C0E /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E434ACA25D0765200661C0E /* PlayerViewController.swift */; };
+		1E434AD025D0775700661C0E /* PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E434ACF25D0775700661C0E /* PlayerViewController.xib */; };
+		1E434AD525D0790400661C0E /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E434AD425D0790400661C0E /* PlayerView.swift */; };
+		1E434ADA25D0970A00661C0E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E434AD925D0970A00661C0E /* Extensions.swift */; };
 		1E53F0C425AB205600A9F212 /* FilmAffinityAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53F0C325AB205600A9F212 /* FilmAffinityAppApp.swift */; };
-		1E53F0C625AB205600A9F212 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53F0C525AB205600A9F212 /* ContentView.swift */; };
-		1E53F0C825AB205700A9F212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E53F0C725AB205700A9F212 /* Assets.xcassets */; };
 		1E53F0CB25AB205700A9F212 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E53F0CA25AB205700A9F212 /* Preview Assets.xcassets */; };
 		1E53F0D625AB205800A9F212 /* FilmAffinityAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53F0D525AB205800A9F212 /* FilmAffinityAppTests.swift */; };
 		1E53F0E125AB205800A9F212 /* FilmAffinityAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53F0E025AB205800A9F212 /* FilmAffinityAppUITests.swift */; };
+		1E53F18325AB25C100A9F212 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53F16F25AB25C100A9F212 /* DetailViewModel.swift */; };
+		1E53F18425AB25C100A9F212 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53F17025AB25C100A9F212 /* DetailView.swift */; };
+		1E53F18625AB25C100A9F212 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53F17425AB25C100A9F212 /* Movie.swift */; };
+		1E53F18925AB25C100A9F212 /* RestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53F17825AB25C100A9F212 /* RestClient.swift */; };
+		1E53F18B25AB25C100A9F212 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53F17B25AB25C100A9F212 /* Constants.swift */; };
+		1E53F18C25AB25C100A9F212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E53F17D25AB25C100A9F212 /* Assets.xcassets */; };
+		1E53F18D25AB25C100A9F212 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1E53F17E25AB25C100A9F212 /* Config.xcconfig */; };
+		1E53F19E25AB264C00A9F212 /* FilmAffinityAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53F19D25AB264C00A9F212 /* FilmAffinityAPI.swift */; };
 		DF6E47431982F63E7E05F7B9 /* Pods_FilmAffinityApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0957E8EC9F482B91CAA45867 /* Pods_FilmAffinityApp.framework */; };
 		E5BA01995E3187B758DF888F /* Pods_FilmAffinityAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 022DB6BE7D4FA38441E13D77 /* Pods_FilmAffinityAppTests.framework */; };
 /* End PBXBuildFile section */
@@ -38,18 +51,31 @@
 /* Begin PBXFileReference section */
 		022DB6BE7D4FA38441E13D77 /* Pods_FilmAffinityAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FilmAffinityAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0957E8EC9F482B91CAA45867 /* Pods_FilmAffinityApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FilmAffinityApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E43492C25CF219A00661C0E /* movie.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = movie.json; sourceTree = "<group>"; };
+		1E43495025CF27CF00661C0E /* DetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModel.swift; sourceTree = "<group>"; };
+		1E434AC225D075F500661C0E /* ShareActivityItemProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareActivityItemProvider.swift; sourceTree = "<group>"; };
+		1E434ACA25D0765200661C0E /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		1E434ACF25D0775700661C0E /* PlayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerViewController.xib; sourceTree = "<group>"; };
+		1E434AD425D0790400661C0E /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		1E434AD925D0970A00661C0E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		1E53F0C025AB205600A9F212 /* FilmAffinityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmAffinityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E53F0C325AB205600A9F212 /* FilmAffinityAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmAffinityAppApp.swift; sourceTree = "<group>"; };
-		1E53F0C525AB205600A9F212 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1E53F0C725AB205700A9F212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E53F0CA25AB205700A9F212 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1E53F0CC25AB205700A9F212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E53F0D125AB205800A9F212 /* FilmAffinityAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilmAffinityAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E53F0D525AB205800A9F212 /* FilmAffinityAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmAffinityAppTests.swift; sourceTree = "<group>"; };
 		1E53F0D725AB205800A9F212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E53F0DC25AB205800A9F212 /* FilmAffinityAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilmAffinityAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E53F0E025AB205800A9F212 /* FilmAffinityAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmAffinityAppUITests.swift; sourceTree = "<group>"; };
 		1E53F0E225AB205800A9F212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E53F16F25AB25C100A9F212 /* DetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		1E53F17025AB25C100A9F212 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		1E53F17425AB25C100A9F212 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		1E53F17825AB25C100A9F212 /* RestClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestClient.swift; sourceTree = "<group>"; };
+		1E53F17B25AB25C100A9F212 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1E53F17D25AB25C100A9F212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E53F17E25AB25C100A9F212 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		1E53F17F25AB25C100A9F212 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E53F19D25AB264C00A9F212 /* FilmAffinityAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmAffinityAPI.swift; sourceTree = "<group>"; };
 		1F07468B05188032E91676AA /* Pods-FilmAffinityAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmAffinityAppTests.release.xcconfig"; path = "Target Support Files/Pods-FilmAffinityAppTests/Pods-FilmAffinityAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		61595FEFEABD73A97B5EC2C7 /* Pods_FilmAffinityApp_FilmAffinityAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FilmAffinityApp_FilmAffinityAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F50E7D9788B2F8B0513E320 /* Pods-FilmAffinityAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmAffinityAppTests.debug.xcconfig"; path = "Target Support Files/Pods-FilmAffinityAppTests/Pods-FilmAffinityAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +113,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E43492B25CF217100661C0E /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				1E43492C25CF219A00661C0E /* movie.json */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		1E434AC125D075D700661C0E /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				1E434AC225D075F500661C0E /* ShareActivityItemProvider.swift */,
+				1E434ACA25D0765200661C0E /* PlayerViewController.swift */,
+				1E434ACF25D0775700661C0E /* PlayerViewController.xib */,
+				1E434AD425D0790400661C0E /* PlayerView.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
 		1E53F0B725AB205500A9F212 = {
 			isa = PBXGroup;
 			children = (
@@ -112,10 +157,10 @@
 		1E53F0C225AB205600A9F212 /* FilmAffinityApp */ = {
 			isa = PBXGroup;
 			children = (
-				1E53F0C325AB205600A9F212 /* FilmAffinityAppApp.swift */,
-				1E53F0C525AB205600A9F212 /* ContentView.swift */,
-				1E53F0C725AB205700A9F212 /* Assets.xcassets */,
-				1E53F0CC25AB205700A9F212 /* Info.plist */,
+				1E53F17A25AB25C100A9F212 /* Application */,
+				1E53F17125AB25C100A9F212 /* Data */,
+				1E53F23725AB2B7900A9F212 /* Domain */,
+				1E53F16D25AB25C100A9F212 /* View */,
 				1E53F0C925AB205700A9F212 /* Preview Content */,
 			);
 			path = FilmAffinityApp;
@@ -145,6 +190,88 @@
 				1E53F0E225AB205800A9F212 /* Info.plist */,
 			);
 			path = FilmAffinityAppUITests;
+			sourceTree = "<group>";
+		};
+		1E53F16D25AB25C100A9F212 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E53F16E25AB25C100A9F212 /* Detail */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E53F16E25AB25C100A9F212 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				1E434AC125D075D700661C0E /* Player */,
+				1E53F16F25AB25C100A9F212 /* DetailViewModel.swift */,
+				1E53F17025AB25C100A9F212 /* DetailView.swift */,
+				1E43495025CF27CF00661C0E /* DetailModel.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		1E53F17125AB25C100A9F212 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1E53F17225AB25C100A9F212 /* Model */,
+				1E53F17625AB25C100A9F212 /* API */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1E53F17225AB25C100A9F212 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E53F17425AB25C100A9F212 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E53F17625AB25C100A9F212 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1E53F17825AB25C100A9F212 /* RestClient.swift */,
+				1E53F19D25AB264C00A9F212 /* FilmAffinityAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		1E53F17A25AB25C100A9F212 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1E53F17B25AB25C100A9F212 /* Constants.swift */,
+				1E53F17C25AB25C100A9F212 /* Resources */,
+				1E53F0C325AB205600A9F212 /* FilmAffinityAppApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1E53F17C25AB25C100A9F212 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1E43492B25CF217100661C0E /* Mock */,
+				1E53F17D25AB25C100A9F212 /* Assets.xcassets */,
+				1E53F17E25AB25C100A9F212 /* Config.xcconfig */,
+				1E53F17F25AB25C100A9F212 /* Info.plist */,
+				1E434AD925D0970A00661C0E /* Extensions.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1E53F23725AB2B7900A9F212 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				1E53F23825AB2B7900A9F212 /* Use Cases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		1E53F23825AB2B7900A9F212 /* Use Cases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Use Cases";
 			sourceTree = "<group>";
 		};
 		1E632901AEA5903EBB7E02C2 /* Pods */ = {
@@ -279,8 +406,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E53F18D25AB25C100A9F212 /* Config.xcconfig in Resources */,
+				1E434AD025D0775700661C0E /* PlayerViewController.xib in Resources */,
 				1E53F0CB25AB205700A9F212 /* Preview Assets.xcassets in Resources */,
-				1E53F0C825AB205700A9F212 /* Assets.xcassets in Resources */,
+				1E43492D25CF219A00661C0E /* movie.json in Resources */,
+				1E53F18C25AB25C100A9F212 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,7 +555,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E53F0C625AB205600A9F212 /* ContentView.swift in Sources */,
+				1E53F18B25AB25C100A9F212 /* Constants.swift in Sources */,
+				1E53F18625AB25C100A9F212 /* Movie.swift in Sources */,
+				1E434AD525D0790400661C0E /* PlayerView.swift in Sources */,
+				1E43495125CF27CF00661C0E /* DetailModel.swift in Sources */,
+				1E53F18425AB25C100A9F212 /* DetailView.swift in Sources */,
+				1E53F19E25AB264C00A9F212 /* FilmAffinityAPI.swift in Sources */,
+				1E434AC325D075F500661C0E /* ShareActivityItemProvider.swift in Sources */,
+				1E434ADA25D0970A00661C0E /* Extensions.swift in Sources */,
+				1E53F18925AB25C100A9F212 /* RestClient.swift in Sources */,
+				1E53F18325AB25C100A9F212 /* DetailViewModel.swift in Sources */,
+				1E434ACB25D0765200661C0E /* PlayerViewController.swift in Sources */,
 				1E53F0C425AB205600A9F212 /* FilmAffinityAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +604,7 @@
 /* Begin XCBuildConfiguration section */
 		1E53F0E325AB205800A9F212 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E53F17E25AB25C100A9F212 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -525,6 +666,7 @@
 		};
 		1E53F0E425AB205800A9F212 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E53F17E25AB25C100A9F212 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -588,7 +730,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FilmAffinityApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 63EKWE9RKB;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = FilmAffinityApp/Info.plist;
+				INFOPLIST_FILE = FilmAffinityApp/Application/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -611,7 +753,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FilmAffinityApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 63EKWE9RKB;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = FilmAffinityApp/Info.plist;
+				INFOPLIST_FILE = FilmAffinityApp/Application/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

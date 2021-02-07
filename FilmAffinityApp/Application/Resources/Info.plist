@@ -46,5 +46,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>baseURL</key>
+	<string>https://filmaffinity-unofficial.p.rapidapi.com/movie</string>
+	<key>apiKey</key>
+	<string>$(API_KEY)</string>
 </dict>
 </plist>

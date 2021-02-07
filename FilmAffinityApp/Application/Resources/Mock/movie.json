@@ -1,0 +1,46 @@
+{
+  "movie": {
+    "id": "750283",
+    "title": "El señor de los anillos: La comunidad del anillo",
+    "link": "https://www.filmaffinity.com/es/film750283.html",
+    "director": [
+      "Peter Jackson"
+    ],
+    "country": "",
+    "excerpt": "En la Tierra Media, el Señor Oscuro Sauron ordenó a los Elfos que forjaran los Grandes Anillos de Poder. Tres para los reyes Elfos, siete para los Señores Enanos, y nueve para los Hombres Mortales. Pero Saurón también forjó, en secreto, el Anillo Único, que tiene el poder de esclavizar toda la Tierra Media. Con la ayuda de sus amigos y de valientes aliados, el joven hobbit Frodo emprende un peligroso viaje con la misión de destruir el Anillo Único. Pero el malvado Sauron ordena la persecución del grupo, compuesto por Frodo y sus leales amigos hobbits, un mago, un hombre, un elfo y un enano. La misión es casi suicida pero necesaria, pues si Sauron con su ejército de orcos lograra recuperar el Anillo, sería el final de la Tierra Media. (FILMAFFINITY)",
+    "genres": [
+      "Fantástico",
+      "Aventuras",
+      "Acción"
+    ],
+    "actors": [
+      "ElijahWood",
+      "IanMcKellen",
+      "ViggoMortensen",
+      "SeanAstin",
+      "SeanBean",
+      "JohnRhys-Davies",
+      "OrlandoBloom",
+      "DominicMonaghan",
+      "BillyBoyd",
+      "CateBlanchett",
+      "HugoWeaving",
+      "LivTyler",
+      "IanHolm",
+      "ChristopherLee",
+      "LawrenceMakoare",
+      "CraigParker",
+      "AndySerkis",
+      "MartonCsokas"
+    ],
+    "duration": "180 min.",
+    "lang": "es",
+    "images": [
+      "https://pics.filmaffinity.com/the_lord_of_the_rings_the_fellowship_of_the_ring-952398002-large.jpg"
+    ],
+    "trailer": "https://www.dailymotion.com/embed/video/x7u4l6l?queue-enable=false&amp;autoplay=true",
+    "rating": 8,
+    "votes": 279,
+    "year": 2001
+  }
+}
